@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryDark"
+    android:tag="layout/request_item_0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape_account_circle" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="sample"
+        android:textSize="20dp"
+        android:textColor="#ffffffff"
+        android:fontFamily="sans-serif-thin" />
+
+    <Button
+        android:id="@+id/nope_btn"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_nope_btn"
+        android:text="nope"
+        android:layout_margin="4dp"/>
+
+    <Button
+        android:id="@+id/sure_btn"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_sure_btn"
+        android:text="sure"
+        android:layout_margin="4dp"
+        />
+
+
+</LinearLayout>
+</layout>
